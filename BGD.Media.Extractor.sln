@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGD.Media.Extractor", "BGD.Media.Extractor\BGD.Media.Extractor.csproj", "{B4D30FBA-0468-4015-8D96-C34F98A0351B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGD.Media.Extractor", "BGD.Media.Extractor\BGD.Media.Extractor.csproj", "{B4D30FBA-0468-4015-8D96-C34F98A0351B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGD.Media.Extractor.Services", "BGD.Media.Extractor.Services\BGD.Media.Extractor.Services.csproj", "{3D393731-8C75-4AF8-A909-5C6479C1C0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGD.Media.Extractor.Entities", "BGD.Media.Extractor.Entities\BGD.Media.Extractor.Entities.csproj", "{AE2308FE-8D8F-4E94-9014-44331B50A50D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B4D30FBA-0468-4015-8D96-C34F98A0351B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D30FBA-0468-4015-8D96-C34F98A0351B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D30FBA-0468-4015-8D96-C34F98A0351B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D393731-8C75-4AF8-A909-5C6479C1C0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D393731-8C75-4AF8-A909-5C6479C1C0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D393731-8C75-4AF8-A909-5C6479C1C0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D393731-8C75-4AF8-A909-5C6479C1C0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2308FE-8D8F-4E94-9014-44331B50A50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2308FE-8D8F-4E94-9014-44331B50A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2308FE-8D8F-4E94-9014-44331B50A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2308FE-8D8F-4E94-9014-44331B50A50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

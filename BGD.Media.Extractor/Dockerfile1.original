@@ -7,7 +7,6 @@ WORKDIR /src
 COPY ["BGD.Media.Extractor/BGD.Media.Extractor.csproj", "BGD.Media.Extractor/"]
 COPY ["BGD.Media.Extractor/NuGet.Config", "BGD.Media.Extractor/"]
 COPY ["BGD.Media.Extractor.Services/BGD.Media.Extractor.Services.csproj", "BGD.Media.Extractor.Services/"]
-COPY ["BGD.Media.Extractor.Services/NuGet.Config", "BGD.Media.Extractor.Services/"]
 RUN dotnet restore "BGD.Media.Extractor/BGD.Media.Extractor.csproj"
 COPY . .
 WORKDIR "/src/BGD.Media.Extractor"

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NuGet.Config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="NuGet.Config">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BGD.API.Extractor" Version="1.0.767" />
+    <PackageReference Include="BGD.API.Tenancy" Version="1.0.767" />
+  </ItemGroup>
+
+</Project>
