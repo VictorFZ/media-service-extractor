@@ -1,3 +1,0 @@
-C:\Users\victo\source\repos\BGD.Media.Extractor\BGD.Media.Extractor\obj\Debug\netcoreapp2.1\BGD.Media.Extractor.csproj.CoreCompileInputs.cache
-C:\Users\victo\source\repos\BGD.Media.Extractor\BGD.Media.Extractor\obj\Debug\netcoreapp2.1\BGD.Media.Extractor.AssemblyInfoInputs.cache
-C:\Users\victo\source\repos\BGD.Media.Extractor\BGD.Media.Extractor\obj\Debug\netcoreapp2.1\BGD.Media.Extractor.AssemblyInfo.cs
