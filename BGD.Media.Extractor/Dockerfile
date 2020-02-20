@@ -1,0 +1,20 @@
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM microsoft/dotnet:2.1-sdk AS build
+WORKDIR /src
+COPY ["BGD.Media.Extractor/BGD.Media.Extractor.csproj", "BGD.Media.Extractor/"]
+RUN dotnet restore "BGD.Media.Extractor/BGD.Media.Extractor.csproj"
+COPY . .
+WORKDIR "/src/BGD.Media.Extractor"
+RUN dotnet build "BGD.Media.Extractor.csproj" -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "BGD.Media.Extractor.csproj" -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "BGD.Media.Extractor.dll"]
