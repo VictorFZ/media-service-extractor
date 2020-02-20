@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <UserSecretsId>414ba9c9-ff34-4473-b0c1-e169597fdc7b</UserSecretsId>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BGD.Media.Extractor.Entities\BGD.Media.Extractor.Entities.csproj" />
     <ProjectReference Include="..\BGD.Media.Extractor.Services\BGD.Media.Extractor.Services.csproj" />
   </ItemGroup>
 

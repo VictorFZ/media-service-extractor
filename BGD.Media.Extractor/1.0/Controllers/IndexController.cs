@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using BGD.API.Versioning.Attributes;
+using BGD.Media.Extractor.Entities._1._0.Requests;
+using BGD.Media.Extractor.Entities._1._0.Responses;
 using BGD.Media.Extractor.Services._1._0.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
